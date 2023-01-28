@@ -1,0 +1,22 @@
+block modal 
+    .overlay 
+        .modal 
+            button.btn-close 
+                img.btn-close__img(src="../img/x-lg.svg", alt="close")
+            .modal-header
+                h2.modal-title Reserve a table
+            .modal-body
+                form(action="send.php" method="post").modal-form
+                    .modal-wrapper
+                        .modal-block 
+                            label.modal-label Name
+                            input(type="text" placeholder="Input your name" name="name").modal-input
+                        .modal-block 
+                                label.modal-label Email
+                                input(type="text" placeholder="Input your email" name="email").modal-input
+                    .modal-wrapper
+                        .modal-block-textarea 
+                            label.modal-label Message
+                            textarea.modal-textarea(name="message" placeholder="Enter a message") 
+                    .modal-footer
+                        button(type="submit").btn Send

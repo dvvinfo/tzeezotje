@@ -215,8 +215,6 @@ ul {
 .info-block-img__bottom {
   width: 322px;
   height: 486px;
-  background: url(../img/1.png) no-repeat center;
-  background-size: cover;
   position: absolute;
   bottom: -100px;
   left: -97px;
@@ -224,8 +222,6 @@ ul {
 .info-block-img__top {
   width: 322px;
   height: 486px;
-  background: url(../img/2.png) no-repeat center;
-  background-size: cover;
   position: absolute;
   top: 0px;
   right: -97px;

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://dvvinfo.github.io/rr/",
+  "homepage": "https://github.com/dvvinfo/tzeezotje",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
